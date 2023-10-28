@@ -1,0 +1,6 @@
+
+.container-list {
+	width: 90%;
+	max-width: var(--width-principal);
+	margin: 20px auto;
+}

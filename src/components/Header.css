@@ -1,0 +1,55 @@
+
+
+.container-header {
+	width: 90%;
+	max-width: var(--width-principal);
+	margin: 20px auto 0;
+	background-color: #ffe4c4;
+	border-radius: 20px;
+	padding: 12px 20px;
+	border: 1px solid #000;
+}
+
+.container-header > h1 {
+	text-align: center;
+	color: #09F;
+	text-shadow: 2px 2px 2px #000;
+	margin-bottom: 10px;
+	font-size: 2.1em;
+}
+
+.form-add-item {
+	display: flex;
+	gap: 10px;
+}
+
+.form-add-item > input {
+	border-radius: 8px;
+	border: 1px solid #000;
+	width: 100%;
+	padding: 0 8px;
+	font-family: inherit;
+	font-weight: 600;	
+	font-size: .9em;
+}
+
+.form-add-item > button {
+	cursor: pointer;
+	padding: 10px 12px;
+	background-color: #09f;
+	border-radius: 8px;
+	border: 1px solid black;
+	font-family: inherit;
+	font-weight: 600;
+	font-size: .9em;
+	line-height: 1;
+}
+
+.form-add-item > button:focus {
+	outline: 1px solid black;
+}
+
+.message-empty {
+	color: #ff0000;
+	font-size: .9em;
+}
